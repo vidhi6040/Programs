@@ -1,21 +1,14 @@
-def day_name(n: int) -> None:
+def day_name(n: str) -> None:
     match n:
-        case 1:
-            print("Monday")
-        case 2:
-            print("Tuesday")
-        case 3:
-            print("Wednesday")
-        case 4:
-            print("Thursday")
-        case 5:
-            print("Friday")
-        case 6:
-            print("Saturday")
-        case 7:
-            print("Sunday")
+        case "ramu":
+            print("Hi")
+        case "hari":
+            print("Hello")
+        case _:
+            print("Bye")
+       
 def main():
-    day_name(4)
+    day_name('rameya')
 
 if __name__ == "__main__":
     main()
